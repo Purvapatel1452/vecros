@@ -105,6 +105,7 @@ export default function TestimonialsSection() {
           </div>
 
           {/* Card 3 - Andre Luis */}
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <div
             className="rounded-lg p-8 shadow-sm"
             style={{

@@ -23,6 +23,7 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="w-full max-w-7xl mx-auto px-8 py-20 flex items-center justify-between">
         {/* Left Side - Text Content */}
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <div className="flex-1 max-w-2xl">
           <h1
             className="text-5xl md:text-6xl font-bold mb-8 leading-tight"
