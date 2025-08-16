@@ -1,7 +1,16 @@
 "use client";
 import { COLORS } from "../../../constants/colors";
+import React from "react";
 
 export default function NewsSection() {
+  const handleMouseOver = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.currentTarget.style.backgroundColor = COLORS.landing2.buttonHover;
+  };
+
+  const handleMouseOut = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.currentTarget.style.backgroundColor = COLORS.landing2.button;
+  };
+
   return (
     <section
       className="w-full py-20"
@@ -61,10 +70,7 @@ export default function NewsSection() {
             >
               Business Insider
             </h3>
-            <p
-              className="text-sm mb-4"
-              style={{ color: COLORS.landing2.text }}
-            >
+            <p className="text-sm mb-4" style={{ color: COLORS.landing2.text }}>
               Envision glasses use ChatGPT and Google Glass to help blind and
               low vision.
             </p>
@@ -74,14 +80,8 @@ export default function NewsSection() {
                 backgroundColor: COLORS.landing2.button,
                 color: COLORS.landing2.text,
               }}
-              onMouseOver={(e) =>
-                (e.currentTarget.style.backgroundColor =
-                  COLORS.landing2.buttonHover)
-              }
-              onMouseOut={(e) =>
-                (e.currentTarget.style.backgroundColor =
-                  COLORS.landing2.button)
-              }
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
             >
               Read Full Article
             </button>
@@ -114,10 +114,7 @@ export default function NewsSection() {
             >
               The Globe And Mail
             </h3>
-            <p
-              className="text-sm mb-4"
-              style={{ color: COLORS.landing2.text }}
-            >
+            <p className="text-sm mb-4" style={{ color: COLORS.landing2.text }}>
               For some blind and low-vision people, AI glasses unlock a new
               independence.
             </p>
@@ -127,14 +124,8 @@ export default function NewsSection() {
                 backgroundColor: COLORS.landing2.button,
                 color: COLORS.landing2.text,
               }}
-              onMouseOver={(e) =>
-                (e.currentTarget.style.backgroundColor =
-                  COLORS.landing2.buttonHover)
-              }
-              onMouseOut={(e) =>
-                (e.currentTarget.style.backgroundColor =
-                  COLORS.landing2.button)
-              }
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
             >
               Read Full Article
             </button>
@@ -167,27 +158,19 @@ export default function NewsSection() {
             >
               AT Today
             </h3>
-            <p
-              className="text-sm mb-4"
-              style={{ color: COLORS.landing2.text }}
-            >
-              Smart glasses' latest upgrade provides succinct AI-powered scene
-              descriptions.
+            <p className="text-sm mb-4" style={{ color: COLORS.landing2.text }}>
+              Smart glasses&apos; latest upgrade provides succinct AI-powered
+              scene descriptions.
             </p>
+
             <button
               className="w-full py-2 px-4 rounded-lg font-semibold transition-colors"
               style={{
                 backgroundColor: COLORS.landing2.button,
                 color: COLORS.landing2.text,
               }}
-              onMouseOver={(e) =>
-                (e.currentTarget.style.backgroundColor =
-                  COLORS.landing2.buttonHover)
-              }
-              onMouseOut={(e) =>
-                (e.currentTarget.style.backgroundColor =
-                  COLORS.landing2.button)
-              }
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
             >
               Read Full Article
             </button>

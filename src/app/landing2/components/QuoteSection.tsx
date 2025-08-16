@@ -4,21 +4,22 @@ export default function QuoteSection() {
   return (
     <section
       className="w-full py-20"
-      style={{ backgroundColor: COLORS.pink }} // ✅ still allowed if COLORS is dynamic
+      style={{ backgroundColor: COLORS.pink }} // ✅ dynamic inline style is fine
     >
       <div className="max-w-6xl mx-auto px-8">
         <div className="text-center relative">
           {/* Large Quote Marks */}
           <div className="text-8xl md:text-9xl text-orange-300 mb-8 opacity-60">
-            "
+            &quot;
           </div>
 
           {/* Main Quote */}
           <p className="text-2xl md:text-3xl font-bold text-black mb-8 leading-relaxed max-w-5xl mx-auto">
             The first time I used Envision was to describe my own living room.
             Tears came to my eyes. I finally knew what my living room really
-            looked like and I didn't hear it from somebody else. That was such
-            an overwhelming experience. I felt it gave me back a part of me.
+            looked like and I didn&apos;t hear it from somebody else. That was
+            such an overwhelming experience. I felt it gave me back a part of
+            me.
           </p>
 
           {/* Attribution */}
