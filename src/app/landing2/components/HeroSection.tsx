@@ -12,18 +12,14 @@ export default function HeroSection() {
         className="w-full py-3 text-center"
         style={{ backgroundColor: COLORS.yellow }}
       >
-        <p
-          className="font-medium"
-          style={{ color: COLORS.background }}
-        >
-          Pre-order the Ally Solos Glasses today & save big
+        <p className="font-medium" style={{ color: COLORS.background }}>
+          Pre-order the Ally Solos Glasses today &amp; save big
         </p>
       </div>
 
       {/* Hero Content */}
       <div className="w-full max-w-7xl mx-auto px-8 py-20 flex items-center justify-between">
         {/* Left Side - Text Content */}
-      
         <div className="flex-1 max-w-2xl">
           <h1
             className="text-5xl md:text-6xl font-bold mb-8 leading-tight"
@@ -31,15 +27,16 @@ export default function HeroSection() {
           >
             Perceive Possibility
           </h1>
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
+
           <p
             className="text-xl mb-8 leading-relaxed"
             style={{ color: COLORS.landing2.text }}
           >
             Envision empowers people who are blind or have low vision to access
-            everyday visual information for themselves. Because it isn't just
-            information. It's knowledge, independence and possibility.
+            everyday visual information for themselves. Because it isn&apos;t
+            just information. It&apos;s knowledge, independence and possibility.
           </p>
+
           <button
             className="px-8 py-3 rounded-full font-semibold text-lg border transition-colors"
             style={{
@@ -48,7 +45,8 @@ export default function HeroSection() {
               borderColor: COLORS.landing2.cardBorder,
             }}
             onMouseOver={(e) =>
-              (e.currentTarget.style.backgroundColor = COLORS.landing2.secondary)
+              (e.currentTarget.style.backgroundColor =
+                COLORS.landing2.secondary)
             }
             onMouseOut={(e) =>
               (e.currentTarget.style.backgroundColor = COLORS.landing2.button)

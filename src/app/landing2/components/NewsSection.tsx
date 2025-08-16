@@ -11,14 +11,22 @@ export default function NewsSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <p
-            className="text-lg font-medium mb-4"
-            style={{ color: COLORS.landing2.accent }}
+            className="text-lg font-medium mb-4 bg-clip-text text-transparent"
+            style={{
+              backgroundImage: `url('/images/text-bg.png')`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
             In the News
           </p>
           <h2
-            className="text-4xl md:text-5xl font-bold"
-            style={{ color: COLORS.landing2.text }}
+            className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent"
+            style={{
+              backgroundImage: `url('/images/text-bg.png')`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
             Making headlines.
           </h2>

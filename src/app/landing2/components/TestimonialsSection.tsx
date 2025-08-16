@@ -20,7 +20,7 @@ export default function TestimonialsSection() {
             className="text-4xl md:text-5xl font-bold"
             style={{ color: COLORS.landing2.text }}
           >
-            Don't just take our word for it.
+            Don&apos;t just take our word for it.
           </h2>
         </div>
 
@@ -59,9 +59,9 @@ export default function TestimonialsSection() {
               style={{ color: COLORS.landing2.text }}
             >
               @LetsEnvision This App is amazing. From scene descriptions to text
-              recognition - (yea, even handwriting!) This type of applications are
-              those that really allow us to increasingly remove little by little
-              the barrier of our disability. Keep up the excellent work!
+              recognition — (yeah, even handwriting!) This type of application
+              really allows us to increasingly remove, little by little, the
+              barrier of our disability. Keep up the excellent work!
             </p>
           </div>
 
@@ -97,15 +97,15 @@ export default function TestimonialsSection() {
               className="text-sm leading-relaxed"
               style={{ color: COLORS.landing2.text }}
             >
-              Tonight I ordered Chinese for dinner. As usual they put a bunch of
-              sauce packets in the bag, all of which feel the same. I was able to
-              use my Envision Glasses to identify what they were, which ones were
-              soy sauce and which ones were duck sauce. Thanks Envision.
+              Tonight I ordered Chinese for dinner. As usual, they put a bunch
+              of sauce packets in the bag, all of which feel the same. I was
+              able to use my Envision Glasses to identify what they were —
+              which ones were soy sauce and which ones were duck sauce. Thanks
+              Envision.
             </p>
           </div>
 
           {/* Card 3 - Andre Luis */}
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <div
             className="rounded-lg p-8 shadow-sm"
             style={{
@@ -137,9 +137,10 @@ export default function TestimonialsSection() {
               className="text-sm leading-relaxed"
               style={{ color: COLORS.landing2.text }}
             >
-              Envision AI is fast and it just works. It's very easy to use, but
-              that doesn't mean simplistic. I'm happy to say Envision does what it
-              says on the tin and performs extremely well.
+              Envision AI is fast and it just works. It&apos;s very easy to
+              use, but that doesn&apos;t mean simplistic. I&apos;m happy to say
+              Envision does what it says on the tin and performs extremely
+              well.
             </p>
           </div>
         </div>
