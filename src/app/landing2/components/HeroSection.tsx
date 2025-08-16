@@ -4,21 +4,33 @@ import { COLORS } from "../../../constants/colors";
 export default function HeroSection() {
   return (
     <section
-      className="w-full" // Remove px-20 from here
-      style={{ backgroundColor: COLORS.landing2.background }}
+      className="w-screen min-h-screen relative"
+      style={{ 
+        backgroundColor: COLORS.landing2.background,
+        margin: 0,
+        padding: 0,
+        left: '50%',
+        right: '50%',
+        marginLeft: '-50vw',
+        marginRight: '-50vw',
+      }}
     >
-      {/* Yellow Promotional Banner - Full width */}
+      {/* Yellow Promotional Banner - Absolute full width */}
       <div
-        className="w-full py-2 sm:py-3 text-center px-4"
-        style={{ backgroundColor: COLORS.yellow }}
+        className="w-full py-2 sm:py-3 text-center px-4 relative"
+        style={{ 
+          backgroundColor: COLORS.yellow,
+          margin: 0,
+          padding: '0.5rem 1rem',
+        }}
       >
         <p className="font-medium text-sm sm:text-base" style={{ color: COLORS.background }}>
           Pre-order the Ally Solos Glasses today &amp; save big
         </p>
       </div>
 
-      {/* Hero Content - Add padding here instead */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-20 py-12 sm:py-16 lg:py-20 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16">
+      {/* Hero Content */}
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-20 py-12 sm:py-16 lg:py-20 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16 relative">
         {/* Left Side - Text Content */}
         <div className="flex-1 max-w-2xl text-center lg:text-left">
           <h1
@@ -43,7 +55,7 @@ export default function HeroSection() {
             style={{
               backgroundColor: COLORS.landing2.button,
               color: COLORS.landing2.text,
-              border: 'none', // Remove border for cleaner look
+              border: 'none',
             }}
             onMouseOver={(e) =>
               (e.currentTarget.style.backgroundColor =
