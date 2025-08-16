@@ -34,7 +34,8 @@ export default function HeroSection() {
           >
             Envision empowers people who are blind or have low vision to access
             everyday visual information for themselves. Because it isn&apos;t
-            just information. It&apos;s knowledge, independence and possibility.
+            just information. It&apos;s knowledge, independence, and
+            possibility.
           </p>
 
           <button
