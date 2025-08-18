@@ -215,7 +215,7 @@ export default function ProductsSection() {
 
                     {/* Right Side - Product Image (Even products) */}
                     <div className="hidden lg:flex flex-1 justify-center">
-                      <div className="relative w-full max-w-[500px] xl:max-w-[600px] h-[400px] xl:h-[500px] rounded-lg overflow-hidden">
+                      {/* <div className="relative w-full max-w-[500px] xl:max-w-[600px] h-[400px] xl:h-[500px] rounded-lg overflow-hidden">
                         <img
                           src={product.image}
                           alt={product.imageAlt}
@@ -224,14 +224,25 @@ export default function ProductsSection() {
                             filter: "brightness(0.95) contrast(1.05)",
                           }}
                         />
-                      </div>
+                      </div> */}
+                      <div className="w-full h-91 flex items-center justify-center bg-black">
+  <img
+    src={product.image}
+    alt={product.imageAlt}
+    className="max-h-full max-w-full object-contain"
+    style={{
+      filter: "brightness(0.95) contrast(1.05)",
+    }}
+  />
+</div>
+
                     </div>
                   </>
                 ) : (
                   <>
                     {/* Left Side - Product Image (Odd products) */}
                     <div className="hidden lg:flex flex-1 justify-center">
-                      <div className="relative w-full max-w-[500px] xl:max-w-[600px] h-[400px] xl:h-[500px] rounded-lg overflow-hidden">
+                      {/* <div className="relative w-full max-w-[500px] xl:max-w-[600px] h-[400px] xl:h-[500px] rounded-lg overflow-hidden">
                         <img
                           src={product.image}
                           alt={product.imageAlt}
@@ -240,7 +251,18 @@ export default function ProductsSection() {
                             filter: "brightness(0.95) contrast(1.05)",
                           }}
                         />
-                      </div>
+                      </div> */}
+                      <div className="w-full h-126 flex items-center justify-center bg-black">
+  <img
+    src={product.image}
+    alt={product.imageAlt}
+    className="max-h-full max-w-full object-contain"
+    style={{
+      filter: "brightness(0.95) contrast(1.05)",
+    }}
+  />
+</div>
+
                     </div>
 
                     {/* Right Side - Text Content (Odd products) */}

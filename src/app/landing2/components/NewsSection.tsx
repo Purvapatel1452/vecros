@@ -50,13 +50,23 @@ export default function NewsSection() {
               border: `1px solid ${COLORS.landing2.cardBorder}`,
             }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
+            {/* <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
                 src="/images/manWithGlasses.jpg"
                 alt="Smart glasses technology"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
-            </div>
+            </div> */}
+                        <div className="w-full h-74 flex items-center justify-center bg-black">
+  <img
+  src="/images/manWithGlasses.jpg"
+                alt="Smart glasses technology"
+    className="max-h-full max-w-full object-contain"
+    style={{
+      filter: "brightness(0.95) contrast(1.05)",
+    }}
+  />
+</div>
             <p
               className="text-xs sm:text-sm mb-2"
               style={{ color: COLORS.landing2.accent }}
@@ -94,13 +104,24 @@ export default function NewsSection() {
               border: `1px solid ${COLORS.landing2.cardBorder}`,
             }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
+            {/* <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1456081101716-74e616ab23d8?w=600&auto=format&fit=crop&q=60"
                 alt="Man using assistive technology"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
-            </div>
+            </div> */}
+            <div className="w-full h-64 flex items-center justify-center bg-black">
+  <img
+   src="https://images.unsplash.com/photo-1456081101716-74e616ab23d8?w=600&auto=format&fit=crop&q=60"
+    alt="Man using assistive technology"
+    className="max-h-full max-w-full object-contain"
+    style={{
+      filter: "brightness(0.95) contrast(1.05)",
+    }}
+  />
+</div>
+
             <p
               className="text-xs sm:text-sm mb-2"
               style={{ color: COLORS.landing2.accent }}
@@ -138,13 +159,23 @@ export default function NewsSection() {
               border: `1px solid ${COLORS.landing2.cardBorder}`,
             }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
+            {/* <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
                 src="/images/uncleWithGlasses.jpg"
                 alt="Woman with smart glasses"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
-            </div>
+            </div> */}
+                  <div className="w-full h-74 flex items-center justify-center bg-black">
+  <img
+    src="/images/uncleWithGlasses.jpg"
+                alt="Woman with smart glasses"
+    className="max-h-full max-w-full object-contain"
+    style={{
+      filter: "brightness(0.95) contrast(1.05)",
+    }}
+  />
+</div>
             <p
               className="text-xs sm:text-sm mb-2"
               style={{ color: COLORS.landing2.accent }}

@@ -86,7 +86,7 @@ export default function HeroSection() {
             </div>
 
             {/* Hero Image */}
-            <div className="relative z-10 w-full h-full rounded-lg overflow-hidden">
+            {/* <div className="relative z-10 w-full h-full rounded-lg overflow-hidden">
               <img
                 src="/images/glasses.jpg"
                 alt="Person wearing smart glasses"
@@ -95,7 +95,18 @@ export default function HeroSection() {
                   filter: "brightness(0.9) contrast(1.1)",
                 }}
               />
-            </div>
+            </div> */}
+            <div className="w-full h-132 flex items-center justify-center bg-black">
+  <img
+     src="/images/glasses.jpg"
+                alt="Person wearing smart glasses"
+    className="max-h-full max-w-full object-contain"
+    style={{
+      filter: "brightness(0.95) contrast(1.05)",
+    }}
+  />
+</div>
+
           </div>
         </div>
       </div>
