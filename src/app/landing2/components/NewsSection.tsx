@@ -52,7 +52,7 @@ export default function NewsSection() {
           >
             <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
-                src="https://plus.unsplash.com/premium_photo-1661319134179-50e9552b63c0?w=600&auto=format&fit=crop&q=60"
+                src="/images/manWithGlasses.jpg"
                 alt="Smart glasses technology"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -140,7 +140,7 @@ export default function NewsSection() {
           >
             <div className="w-full h-40 sm:h-48 rounded-lg mb-4 overflow-hidden">
               <img
-                src="https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?w=600&auto=format&fit=crop&q=60"
+                src="/images/uncleWithGlasses.jpg"
                 alt="Woman with smart glasses"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />

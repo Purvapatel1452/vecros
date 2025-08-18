@@ -12,8 +12,7 @@ export default function ProductsSection() {
         "Excelling in all kinds of text and object recognition, Envision can read text in over 60 languages. Be it handwritten notes, text on food packages or the pages of an entire book.",
       primaryButton: "Download now",
       secondaryButton: "Discover more",
-      image:
-        "https://images.unsplash.com/photo-1512099053734-e6767b535838?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      image:'/images/EnvisionApp.jpg',
       imageAlt: "Smartphone with Envision App showing text recognition",
     },
     {
@@ -25,9 +24,7 @@ export default function ProductsSection() {
         "With hands-free video calling from your Envision Glasses, get the assistance you need from trusted friends and family members, in real-time.",
       primaryButton: "Discover more",
       secondaryButton: "Learn more",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      imageAlt: "Two people using Envision Glasses for video calling",
+      image:'/images/girlWithGlasses.jpg', imageAlt: "Two people using Envision Glasses for video calling",
     },
     {
       id: 3,

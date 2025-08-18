@@ -71,7 +71,7 @@ export default function HeroSection() {
 
         {/* Right Side - Hero Image */}
         <div className="flex-1 flex justify-center items-center relative w-full">
-          <div className="relative w-full max-w-[500px] h-[400px] sm:h-[500px] md:h-[600px]">
+          <div className="relative w-full max-w-[600px] h-[400px] sm:h-[500px] md:h-[600px]">
             {/* Background Dots Pattern */}
             <div className="absolute inset-0">
               <div className="grid grid-cols-6 sm:grid-cols-8 gap-2 sm:gap-4 opacity-30 p-4">
@@ -88,7 +88,7 @@ export default function HeroSection() {
             {/* Hero Image */}
             <div className="relative z-10 w-full h-full rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1512099053734-e6767b535838?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D"
+                src="/images/glasses.jpg"
                 alt="Person wearing smart glasses"
                 className="w-full h-full object-cover"
                 style={{
