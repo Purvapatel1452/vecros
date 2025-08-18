@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
               style={{ color: COLORS.landing2.text }}
             >
               @LetsEnvision This App is amazing. From scene descriptions to text
-              recognition â€" (yeah, even handwriting!) This type of application
+              recognition (yeah, even handwriting!) This type of application
               really allows us to increasingly remove, little by little, the
               barrier of our disability. Keep up the excellent work!
             </p>
@@ -106,7 +106,7 @@ export default function TestimonialsSection() {
             >
               Tonight I ordered Chinese for dinner. As usual, they put a bunch
               of sauce packets in the bag, all of which feel the same. I was
-              able to use my Envision Glasses to identify what they were â€"
+              able to use my Envision Glasses to identify what they were
               which ones were soy sauce and which ones were duck sauce. Thanks
               Envision.
             </p>
